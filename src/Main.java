@@ -20,5 +20,7 @@ public class Main {
         String pass=sc.next();
         System.out.println(user.withdrawMoney(money,pass));
         System.out.println(user.calculateInterest(10));
+
+        System.out.println("Made a change");
     }
 }
